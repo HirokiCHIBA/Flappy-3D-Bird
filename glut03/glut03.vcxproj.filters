@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ppmload.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="flappy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMetaseq.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="glut03.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="flappy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GLMetaseq.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flappy_00000.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00001.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00002.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00003.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00004.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00005.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00006.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00007.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00008.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00009.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00010.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00011.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00012.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00013.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00014.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00015.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00016.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00017.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00018.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00019.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00020.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00021.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00022.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00023.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00024.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00025.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00026.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00027.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00028.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00029.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00030.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00031.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00032.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00033.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00034.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00035.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00036.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00037.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00038.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="flappy_00039.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="getready.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n0.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n1.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n2.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n3.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n4.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n5.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n6.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n7.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n8.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="n9.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="wall.ppm">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="gameover.mqo">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="fly.wav">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="chime.wav">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="crash.wav">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="fall.wav">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="flap.wav">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

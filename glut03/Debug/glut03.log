@@ -1,0 +1,21 @@
+﻿2015/02/16 14:38:19 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\CHIBA\Box Sync\VS2013 Projects\VS2013\glut03\glut03.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt flappy.cpp glut03.cpp utils.cpp
+         utils.cpp
+         glut03.cpp
+         flappy.cpp
+         コードを生成中...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt GLMetaseq.c
+         GLMetaseq.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\CHIBA\Box Sync\VS2013 Projects\VS2013\Debug\glut03.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\CHIBA\Box Sync\VS2013 Projects\VS2013\Debug\glut03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\CHIBA\Box Sync\VS2013 Projects\VS2013\Debug\glut03.lib" /MACHINE:X86 Debug\flappy.obj
+         Debug\GLMetaseq.obj
+         Debug\glut03.obj
+         Debug\utils.obj
+         glut03.vcxproj -> C:\Users\CHIBA\Box Sync\VS2013 Projects\VS2013\Debug\glut03.exe
+     1>プロジェクト "C:\Users\CHIBA\Box Sync\VS2013 Projects\VS2013\glut03\glut03.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:07.96

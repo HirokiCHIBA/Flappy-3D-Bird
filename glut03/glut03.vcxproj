@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C7768CC-2540-435B-95A6-CD1882C758B1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>glut03</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="flappy.h" />
+    <ClInclude Include="GLMetaseq.h" />
+    <ClInclude Include="ppmload.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="flappy.cpp" />
+    <ClCompile Include="GLMetaseq.c" />
+    <ClCompile Include="glut03.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flappy_00000.mqo" />
+    <None Include="flappy_00001.mqo" />
+    <None Include="flappy_00002.mqo" />
+    <None Include="flappy_00003.mqo" />
+    <None Include="flappy_00004.mqo" />
+    <None Include="flappy_00005.mqo" />
+    <None Include="flappy_00006.mqo" />
+    <None Include="flappy_00007.mqo" />
+    <None Include="flappy_00008.mqo" />
+    <None Include="flappy_00009.mqo" />
+    <None Include="flappy_00010.mqo" />
+    <None Include="flappy_00011.mqo" />
+    <None Include="flappy_00012.mqo" />
+    <None Include="flappy_00013.mqo" />
+    <None Include="flappy_00014.mqo" />
+    <None Include="flappy_00015.mqo" />
+    <None Include="flappy_00016.mqo" />
+    <None Include="flappy_00017.mqo" />
+    <None Include="flappy_00018.mqo" />
+    <None Include="flappy_00019.mqo" />
+    <None Include="flappy_00020.mqo" />
+    <None Include="flappy_00021.mqo" />
+    <None Include="flappy_00022.mqo" />
+    <None Include="flappy_00023.mqo" />
+    <None Include="flappy_00024.mqo" />
+    <None Include="flappy_00025.mqo" />
+    <None Include="flappy_00026.mqo" />
+    <None Include="flappy_00027.mqo" />
+    <None Include="flappy_00028.mqo" />
+    <None Include="flappy_00029.mqo" />
+    <None Include="flappy_00030.mqo" />
+    <None Include="flappy_00031.mqo" />
+    <None Include="flappy_00032.mqo" />
+    <None Include="flappy_00033.mqo" />
+    <None Include="flappy_00034.mqo" />
+    <None Include="flappy_00035.mqo" />
+    <None Include="flappy_00036.mqo" />
+    <None Include="flappy_00037.mqo" />
+    <None Include="flappy_00038.mqo" />
+    <None Include="flappy_00039.mqo" />
+    <None Include="gameover.mqo" />
+    <None Include="getready.mqo" />
+    <None Include="n0.mqo" />
+    <None Include="n1.mqo" />
+    <None Include="n2.mqo" />
+    <None Include="n3.mqo" />
+    <None Include="n4.mqo" />
+    <None Include="n5.mqo" />
+    <None Include="n6.mqo" />
+    <None Include="n7.mqo" />
+    <None Include="n8.mqo" />
+    <None Include="n9.mqo" />
+    <None Include="wall.ppm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="chime.wav" />
+    <Media Include="crash.wav" />
+    <Media Include="fall.wav" />
+    <Media Include="flap.wav" />
+    <Media Include="fly.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
